@@ -7,11 +7,13 @@
 }
 
 body{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7) ), url(https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+    background-image: url(https://images.unsplash.com/photo-1419833173245-f59e1b93f9ee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 header{
@@ -19,7 +21,7 @@ header{
     left: 0;
     right: 0;
     top: 0;
-    background-color: rgb(0, 0, 0, 0.8);
+    /* background-color: rgb(0, 0, 0); */
     height: 40px;
     text-align: right;
   }
@@ -29,39 +31,42 @@ header{
     padding-top: 10px;
     font-size: 18px;
     font-family:'Poppins', sans-serif;
-    color: #ababab;
+    color: #ffffff;
     
   }
 
   header ul a{
     text-decoration: none;
-    color: #818181;
+    color: #ffffff;
   }
 
   header ul a:hover {
     cursor: pointer;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 242, 255);
   }
 
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(184, 184, 184, 0.1));
-    color: #fff;
+    background: linear-gradient(rgba(0, 6, 11, 0.4), rgba(0, 0, 0, 0.4));
+    /* background-color: black; */
+    color: #ffffff;
     margin: 100px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    margin-right: 60%;
+    margin-left: 5%;
 }
 
 nav h1{
-    color: rgb(255, 255, 255);
+    color:white ;
     font-size: 40px;
     text-shadow: 10px #151515;
 }
 
 nav h1 span{
-    color: #000279;
+    color: #69bcff;
 }
 
 .search{
@@ -77,7 +82,7 @@ nav h1 span{
 .search input{
     border: 0;
     outline: 0;
-    background: #ebfffc;
+    background: #ffffff;
     color: #151515;
     padding: 10px 25px;
     height: 60px;
@@ -95,7 +100,7 @@ nav h1 span{
     margin-top: 10px;
     border: 0;
     outline: 0;
-    background: #90b3ff;
+    background: #69bcff;
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -103,7 +108,7 @@ nav h1 span{
 }
 
 .search button:hover{
-    background: rgb(91, 94, 255);
+    background: #5da2da;
 }
 
 .search button img{
@@ -165,7 +170,7 @@ footer {
     bottom: 0;
     right: 0;
     width: 100%;
-    background-color:black;
+    /* background-color:black; */
     color: white;
     text-align: center;
   }
@@ -175,7 +180,7 @@ footer {
     padding-top: 10px;
     font-size: 18px;
     font-family:'Poppins', sans-serif;
-    color: #818181;
+    color: #ffffff;
   }
 
 
